@@ -60,24 +60,6 @@ Aplicativo de tarefas feito com HTML, CSS e JavaScript puro, sem frameworks. Dá
 └── README.md
 ```
 
-## Como rodar no seu computador
-
-1. Baixe ou clone o repositório.
-2. Abra a pasta no VS Code e use a extensão **Live Server** ("Go Live"), ou abra o `index.html` direto no navegador.
-
-## Como publicar
-
-O projeto é estático. No GitHub Pages:
-**Settings → Pages → Deploy from a branch → `main` / `(root)` → Save.**
-
-## O que aprendi
-
-<!-- TODO: escreva com suas palavras 3 ou 4 aprendizados reais. Por exemplo:
-     - o que mudou no seu jeito de pensar ao separar estado e tela
-     - a dificuldade de fazer clique simples e duplo clique conviverem
-     - por que validar datas dá mais trabalho do que parece
-     - algo que você faria diferente se começasse de novo -->
-
 ## Próximos passos
 
 - [ ] Botão "Editar" em cada tarefa, para funcionar com teclado e toque
