@@ -2,7 +2,7 @@
 
 Aplicativo de tarefas feito com HTML, CSS e JavaScript puro, sem frameworks. Dá para adicionar tarefas com prazo, editar, concluir, filtrar e remover, e tudo fica salvo no navegador.
 
-**Ver online:** [COLE AQUI O LINK DO GITHUB PAGES]
+**Ver online:** https://ezimbrao.github.io/lista-tarefas/
 
 <!-- TODO: grave um GIF curto (10 a 15 segundos) usando o app, ou tire um print, e salve
      na raiz do projeto como preview.gif ou preview.png. Ajuste o nome do arquivo abaixo. -->
