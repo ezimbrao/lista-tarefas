@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Lista de tarefas</h1>
+
+    <form id="form-tarefa" class="form">
+      <label for="campo-tarefa" class="visualmente-oculto">Nova tarefa</label>
+      <input id="campo-tarefa" type="text" placeholder="Digite a tarefa" autocomplete="off" required>
+      <label for="campo-prazo">Prazo</label>
+      <input id="campo-prazo" type="text" inputmode="numeric" placeholder="dd/mm/aaaa" aria-describedby="ajuda-prazo">
+      <span id="ajuda-prazo" class="visualmente-oculto">Digite o prazo no formato dia, mês e ano.</span>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <div class="filtros" role="group" aria-label="Filtrar tarefas">
+      <button type="button" data-filtro="todas" aria-pressed="true">Todas</button>
+      <button type="button" data-filtro="pendentes" aria-pressed="false">Pendentes</button>
+      <button type="button" data-filtro="concluidas" aria-pressed="false">Concluídas</button>
+      <button type="button" id="limpar-concluidas">Limpar concluídas</button>
+    </div>
+
+    <ul id="lista" class="lista"></ul>
+    <p id="vazio" class="vazio" hidden>Nenhuma tarefa por aqui.</p>
+    <p id="contador" class="contador" aria-live="polite"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
